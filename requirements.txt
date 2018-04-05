@@ -1,4 +1,0 @@
-beautifulsoup4==4.6.0
-bs4==0.0.1
-python3-bs4==4.6.0
-python-beautifulsoup4==4.6.0
