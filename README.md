@@ -1,15 +1,4 @@
 Heroku buildpack: PhantomJS
 =======================
 
-This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) of CasperJS(http://casperjs.org).
-
-Usage
------
-
-Example usage:
-
-    $ heroku create --stack cedar --buildpack http://github.com/misza222/heroku-buildpack-casperjs.git
-
-    $ git push heroku master
-
-
+This is a customized version of [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) of CasperJS(http://casperjs.org). As new addition, it includes a 'requirements.txt' file containing required Python modules for running CasperJS together with a Python web scraper script.
